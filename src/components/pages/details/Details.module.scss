@@ -1,0 +1,542 @@
+.Details {
+  padding: 100px 0;
+
+  .content {
+    background: rgb(65, 65, 65);
+    padding: 20px;
+    border-radius: 20px;
+    .box {
+      display: flex;
+      gap: 40px;
+      .images {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        img {
+          width: 100%;
+        }
+      }
+      .boxtext {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        gap: 20px;
+
+        .text {
+          display: flex;
+          flex-direction: column;
+          gap: 20px;
+
+          h1 {
+            font-size: 32px;
+          }
+          p {
+            font-size: 18px;
+          }
+          .card {
+            background: #646464;
+            padding: 20px 10px;
+            border-radius: 5px;
+
+            display: flex;
+            justify-content: space-between;
+
+            .b1 {
+              display: flex;
+              flex-direction: column;
+              gap: 5px;
+              h3 {
+                font-size: 18px;
+                font-weight: 700;
+              }
+            }
+            .b2 {
+              text-align: end;
+              display: flex;
+              flex-direction: column;
+              gap: 5px;
+              h3 {
+                font-size: 18px;
+                font-weight: 400;
+              }
+            }
+          }
+        }
+        .boxbtn {
+          display: flex;
+          flex-direction: column;
+          gap: 10px;
+          .btn {
+            display: flex;
+            gap: 10px;
+            button {
+              padding: 10px;
+              border: 2px solid transparent;
+              background-color: #646464;
+              cursor: pointer;
+              transition: background-color 0.3s;
+
+              &:hover {
+                background-color: rgb(139, 139, 139);
+              }
+
+              &:focus {
+                outline: none;
+                background: rgb(255, 153, 0);
+              }
+            }
+          }
+          button {
+            background: rgb(255, 153, 0);
+            padding: 15px 30px;
+            border-radius: 10px;
+            border: none;
+            cursor: pointer;
+            font-size: 18px;
+
+            &:active {
+              background: rgb(194, 116, 0);
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1000px) {
+  .Details {
+    .content {
+      background: rgb(65, 65, 65);
+      padding: 20px;
+      border-radius: 20px;
+      .box {
+        display: flex;
+        gap: 40px;
+        .images {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          img {
+            width: 100%;
+          }
+        }
+        .boxtext {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-around;
+          gap: 10px;
+
+          .text {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+
+            h1 {
+              font-size: 30px;
+            }
+            p {
+              font-size: 16px;
+            }
+            .card {
+              background: #646464;
+              padding: 20px 10px;
+              border-radius: 5px;
+
+              display: flex;
+              justify-content: space-between;
+
+              .b1 {
+                display: flex;
+                flex-direction: column;
+                gap: 5px;
+                h3 {
+                  font-size: 14px;
+                  font-weight: 700;
+                }
+              }
+              .b2 {
+                text-align: end;
+                display: flex;
+                flex-direction: column;
+                gap: 5px;
+                h3 {
+                  font-size: 14px;
+                  font-weight: 400;
+                }
+              }
+            }
+          }
+          .boxbtn {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            .btn {
+              display: flex;
+              gap: 10px;
+              button {
+                padding: 10px;
+                font-size: 12px;
+                border: 2px solid transparent;
+                background-color: #646464;
+                cursor: pointer;
+                transition: background-color 0.3s;
+
+                &:hover {
+                  background-color: rgb(139, 139, 139);
+                }
+
+                &:focus {
+                  outline: none;
+                  background: rgb(255, 153, 0);
+                }
+              }
+            }
+            button {
+              background: rgb(255, 153, 0);
+              padding: 15px 30px;
+              border-radius: 10px;
+              border: none;
+              cursor: pointer;
+              font-size: 18px;
+
+              &:active {
+                background: rgb(194, 116, 0);
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  .Details {
+    padding: 50px 0;
+    .content {
+      background: rgb(65, 65, 65);
+      padding: 20px;
+      border-radius: 20px;
+
+      .box {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        .images {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          img {
+            width: 100%;
+          }
+        }
+        .boxtext {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-around;
+          gap: 10px;
+
+          .text {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+
+            h1 {
+              font-size: 34px;
+            }
+            p {
+              font-size: 20px;
+            }
+            .card {
+              background: #646464;
+              padding: 20px 10px;
+              border-radius: 5px;
+
+              display: flex;
+              justify-content: space-between;
+
+              .b1 {
+                display: flex;
+                flex-direction: column;
+                gap: 5px;
+                h3 {
+                  font-size: 18px;
+                  font-weight: 700;
+                }
+              }
+              .b2 {
+                text-align: end;
+                display: flex;
+                flex-direction: column;
+                gap: 5px;
+                h3 {
+                  font-size: 18px;
+                  font-weight: 400;
+                }
+              }
+            }
+          }
+          .boxbtn {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            .btn {
+              display: flex;
+              gap: 10px;
+              button {
+                padding: 10px;
+                font-size: 14px;
+                border: 2px solid transparent;
+                background-color: #646464;
+                cursor: pointer;
+                transition: background-color 0.3s;
+
+                &:hover {
+                  background-color: rgb(139, 139, 139);
+                }
+
+                &:focus {
+                  outline: none;
+                  background: rgb(255, 153, 0);
+                }
+              }
+            }
+            button {
+              background: rgb(255, 153, 0);
+              padding: 15px 30px;
+              border-radius: 10px;
+              border: none;
+              cursor: pointer;
+              font-size: 18px;
+
+              &:active {
+                background: rgb(194, 116, 0);
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .Details {
+    padding: 50px 0;
+    .content {
+      background: rgb(65, 65, 65);
+      padding: 20px;
+      border-radius: 20px;
+
+      .box {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        .images {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          img {
+            width: 100%;
+          }
+        }
+        .boxtext {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-around;
+          gap: 10px;
+
+          .text {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+
+            h1 {
+              font-size: 28px;
+            }
+            p {
+              font-size: 18px;
+            }
+            .card {
+              background: #646464;
+              padding: 20px 10px;
+              border-radius: 5px;
+
+              display: flex;
+              justify-content: space-between;
+
+              .b1 {
+                display: flex;
+                flex-direction: column;
+                gap: 5px;
+                h3 {
+                  font-size: 14px;
+                  font-weight: 700;
+                }
+              }
+              .b2 {
+                text-align: end;
+                display: flex;
+                flex-direction: column;
+                gap: 5px;
+                h3 {
+                  font-size: 14px;
+                  font-weight: 400;
+                }
+              }
+            }
+          }
+          .boxbtn {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            .btn {
+              display: flex;
+              gap: 10px;
+              button {
+                padding: 10px;
+                font-size: 14px;
+                border: 2px solid transparent;
+                background-color: #646464;
+                cursor: pointer;
+                transition: background-color 0.3s;
+
+                &:hover {
+                  background-color: rgb(139, 139, 139);
+                }
+
+                &:focus {
+                  outline: none;
+                  background: rgb(255, 153, 0);
+                }
+              }
+            }
+            button {
+              background: rgb(255, 153, 0);
+              padding: 15px 30px;
+              border-radius: 10px;
+              border: none;
+              cursor: pointer;
+              font-size: 18px;
+
+              &:active {
+                background: rgb(194, 116, 0);
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  .Details {
+    padding: 50px 0;
+    .content {
+      background: rgb(65, 65, 65);
+      padding: 20px;
+      border-radius: 20px;
+
+      .box {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        .images {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          img {
+            width: 100%;
+          }
+        }
+        .boxtext {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-around;
+          gap: 10px;
+
+          .text {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+
+            h1 {
+              font-size: 24px;
+            }
+            p {
+              font-size: 14px;
+            }
+            .card {
+              background: #646464;
+              padding: 10px 10px;
+              border-radius: 5px;
+
+              display: flex;
+              justify-content: space-between;
+
+              .b1 {
+                display: flex;
+                flex-direction: column;
+                gap: 5px;
+                h3 {
+                  font-size: 12px;
+                  font-weight: 700;
+                }
+              }
+              .b2 {
+                text-align: end;
+                display: flex;
+                flex-direction: column;
+                gap: 5px;
+                h3 {
+                  font-size: 12px;
+                  font-weight: 400;
+                }
+              }
+            }
+          }
+          .boxbtn {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            .btn {
+              display: flex;
+              gap: 10px;
+              button {
+                padding: 10px;
+                font-size: 14px;
+                border: 2px solid transparent;
+                background-color: #646464;
+                cursor: pointer;
+                transition: background-color 0.3s;
+
+                &:hover {
+                  background-color: rgb(139, 139, 139);
+                }
+
+                &:focus {
+                  outline: none;
+                  background: rgb(255, 153, 0);
+                }
+              }
+            }
+            button {
+              background: rgb(255, 153, 0);
+              padding: 15px 30px;
+              border-radius: 10px;
+              border: none;
+              cursor: pointer;
+              font-size: 18px;
+
+              &:active {
+                background: rgb(194, 116, 0);
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+.Header {
+  background: rgb(255, 123, 0);
+  .content {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    .logo {
+      img {
+        width: 50px;
+        border-radius: 50%;
+      }
+    }
+    .nav {
+      a {
+        text-decoration: none;
+        color: black;
+      }
+    }
+  }
+}
